@@ -42,13 +42,13 @@ O objetivo do projeto é aplicar conceitos de **testes manuais**, **planejamento
 
 Como Executar os Testes Automatizado
 
-# 1 Pré-requisitos
+## 1 Pré-requisitos
 
 -Python 3.9 ou superior
 -Google Chrome instalado
 -Pip atualizado
 
-# 2 Instalação das Dependências
+## 2 Instalação das Dependências
 
 ```
 pip install selenium
@@ -56,7 +56,7 @@ pip install pytest
 pip install webdriver-manager
 ```
 
-# 3 Executar os Testes
+## 3 Executar os Testes
 
 Para executar todos os testes:
 ```
@@ -67,7 +67,7 @@ Ou executar um teste específico:
 pytest login.py
 pytest extrato.py
 ```
-Evidências de Teste
+### Evidências de Teste
 
 Durante a execução dos testes foram geradas evidências como:
 *Prints de execução
@@ -75,11 +75,11 @@ Durante a execução dos testes foram geradas evidências como:
 *Resultados no terminal do VS Code
 Essas evidências comprovam a execução e validação dos cenários propostos.
 
-Evolução do Projeto
+### Evolução do Projeto
 
 Como evolução do aprendizado, foi iniciado um projeto adicional utilizando Playwright, aplicando conceitos modernos de automação de testes E2E, com foco em estabilidade, legibilidade e boas práticas.
 
-Referências
+### Referências
 
 *https://bugbank.netlify.app
 *https://www.selenium.dev
